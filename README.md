@@ -10,7 +10,7 @@ Add variable font for CJK.
 ### How to istall
 - Once installed the main module should generate a folder called `OhMyFont` at internal storage.
 
-- Download
+- **Download
  - [NotoSansCJK-VF.ttc](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSansCJK-VF.ttc)
  - [NotoSerifCJK.ttc.part00](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSerifCJK.ttc.part00)
  - [NotoSerifCJK.ttc.part01](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSerifCJK.ttc.part01)
