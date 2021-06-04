@@ -16,7 +16,7 @@ Add variable font for CJK.
   - [NotoSerifCJK.ttc.part01](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSerifCJK.ttc.part01)
   - [NotoSerifCJK.ttc.sha256](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSerifCJK.ttc.sha256)
 - Put them into OhMyFont folder.
-- Put [script.sh](https://gitlab.com/rodert534/oh_my_font-cjk-vf-extensions/-/raw/master/script.sh?inline=false)
+- Put [10_NotoCJKVF.sh](https://gitlab.com/rodert534/oh_my_font-cjk-vf-extensions/-/raw/master/10_NotoCJKVF.sh?inline=false)
 - Flash again the main module.
 - Done.
 
