@@ -11,10 +11,8 @@ Add variable font for CJK.
 - Once installed the main module should generate a folder called `OhMyFont` at internal storage.
 
 - Download
-  - [NotoSansCJK-VF-Android.otf.ttc](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSansCJK-VF-Android.otf.ttc)
-  - [NotoSerifCJK-Android.ttc.part00](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSerifCJK-Android.ttc.part00)
-  - [NotoSerifCJK-Android.ttc.part01](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSerifCJK-Android.ttc.part01)
-  - [NotoSerifCJK-Android.ttc.sha256](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/raw/main/system/fonts/NotoSerifCJK-Android.ttc.sha256)
+  - [NotoSansCJK-VF-Android.otf.ttc](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/blob/main/system/fonts/NotoSansCJK-VF-Android.otf.ttc?raw=true)
+  - [NotoSerifCJK-VF-Android.otf.ttc](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk/blob/main/system/fonts/NotoSerifCJK-VF-Android.otf.ttc?raw=true)
 - Put them into OhMyFont folder.
 - Put [10_NotoCJKVF.sh](https://gitlab.com/rodert534/oh_my_font-cjk-vf-extensions/-/raw/master/10_NotoCJKVF.sh?inline=false)
 - Flash again the main module.
