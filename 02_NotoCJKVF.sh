@@ -1,6 +1,6 @@
 # OMF NotoCJK Extension
-# 2021/06/04
-# Fork from https://raw.githubusercontent.com/WordlessEcho/Noto-CJK-VF-Magisk/main/customize.sh
+# 2022/12/15
+# Fork from https://github.com/simonsmh/notocjk/blob/master/customize.sh
 cp $OMFDIR/Noto*ttc* $SYSFONT
 
 [ -x "$(which magisk)" ] && MIRRORPATH=$(magisk --path)/.magisk/mirror || unset MIRRORPATH
