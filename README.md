@@ -11,8 +11,12 @@ Add variable font for CJK.
 - Once installed the main module should generate a folder called `OhMyFont` at internal storage.
 
 - Download
-  - [NotoSansCJK-VF.otf.ttc](https://github.com/WordlessEcho/patch-noto-cjk-for-android/raw/main/noto/sans/2.004/NotoSansCJK-VF.otf.ttc)
-  - [NotoSerifCJK-VF.otf.ttc](https://github.com/WordlessEcho/patch-noto-cjk-for-android/raw/main/noto/serif/2.002/NotoSerifCJK-VF.otf.ttc)
+  - [NotoSerifCJK-VF.otf.ttc](https://github.com/simonsmh/notocjk/raw/master/system/fonts/NotoSerifCJK-VF.otf.ttc)
+  - [NotoSerifCJK-Regular.ttc](https://github.com/simonsmh/notocjk/raw/master/system/fonts/NotoSerifCJK-Regular.ttc)
+  - [NotoSansCJK-VF.otf.ttc](https://github.com/simonsmh/notocjk/raw/master/system/fonts/NotoSansCJK-VF.otf.ttc)
+  - [NotoSansCJK-Regular.ttc](https://github.com/simonsmh/notocjk/raw/master/system/fonts/NotoSansCJK-Regular.ttc)
+  - [DroidSansFallbackFull.ttf](https://github.com/simonsmh/notocjk/raw/master/system/fonts/DroidSansFallbackFull.ttf)
+  - [DroidSansFallback.ttf](https://github.com/simonsmh/notocjk/raw/master/system/fonts/DroidSansFallback.ttf)
 - Put them into OhMyFont folder.
 - Put [50_NotoCJKVF.sh](https://github.com/PianCat/Oh-My-Font-CJK-VF-Extensions/raw/master/50_NotoCJKVF.sh)
 - Flash again the main module.
@@ -20,6 +24,7 @@ Add variable font for CJK.
 
 ### Sepcial Thanks
 - [Wordless Echo](https://github.com/WordlessEcho)
+- [Simon Shi](https://github.com/simonsmh)
 - _@_ [Nông Thái Hoàng](https://t.me/nongthaihoang)
 - _@_ [RodertHaung](https://github.com/RodertHaung)
 
