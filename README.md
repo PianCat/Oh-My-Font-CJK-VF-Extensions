@@ -14,7 +14,7 @@ Add variable font for CJK.
   - [NotoSansCJK-VF.otf.ttc](https://github.com/WordlessEcho/patch-noto-cjk-for-android/raw/main/noto/sans/2.004/NotoSansCJK-VF.otf.ttc)
   - [NotoSerifCJK-VF.otf.ttc](https://github.com/WordlessEcho/patch-noto-cjk-for-android/raw/main/noto/serif/2.002/NotoSerifCJK-VF.otf.ttc)
 - Put them into OhMyFont folder.
-- Put [02_NotoCJKVF.sh](https://github.com/PianCat/Oh-My-Font-CJK-VF-Extensions/raw/master/50_NotoCJKVF.sh)
+- Put [50_NotoCJKVF.sh](https://github.com/PianCat/Oh-My-Font-CJK-VF-Extensions/raw/master/50_NotoCJKVF.sh)
 - Flash again the main module.
 - Done.
 
