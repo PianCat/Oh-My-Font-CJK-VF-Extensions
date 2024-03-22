@@ -2,7 +2,7 @@
 # 2022/12/15
 # Fork from https://github.com/simonsmh/notocjk/blob/master/customize.sh
 cp $OMFDIR/Noto*ttc* $SYSFONT
-cp $OMFDIR/
+cp $OMFDIR/DroidSansFallback* $SYSFONT
 
 # Disable MiSans for debugging
 # sed -i '/<!-- # MIUI Edit Start -->/,/<!-- # MIUI Edit END -->/d;/<!-- MIUI fonts begin \/-->/,/<!-- MIUI fonts end \/-->/d;' $SYSXML 
