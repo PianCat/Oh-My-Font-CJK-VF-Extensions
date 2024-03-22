@@ -1,5 +1,5 @@
 # OMF NotoCJK Extension
-# 2022/12/15
+# 2024/03/23
 # Fork from https://github.com/simonsmh/notocjk/blob/master/customize.sh
 cp $OMFDIR/Noto*ttc* $SYSFONT
 cp $OMFDIR/DroidSansFallback* $SYSFONT
