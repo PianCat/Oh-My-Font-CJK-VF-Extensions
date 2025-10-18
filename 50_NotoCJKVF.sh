@@ -39,14 +39,14 @@ sed -i '
 s/<family lang=\"ko\">.*Noto.*CJK.*<\/family>/<family lang="ko">\n<font weight="100" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="100" \/><\/font>\n<font weight="200" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="200" \/><\/font>\n<font weight="300" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="300" \/><\/font>\n<font weight="400" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="400" \/><\/font>\n<font weight="500" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="500" \/><\/font>\n<font weight="600" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="600" \/><\/font>\n<font weight="700" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="700" \/><\/font>\n<font weight="800" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="800" \/><\/font>\n<font weight="900" style="normal" index="1" postScriptName="NotoSansCJKkr-Thin">NotoSansCJK-VF.otf.ttc<axis tag="wght" stylevalue="900" \/><\/font>\n<font weight="100" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="100" \/><\/font>\n<font weight="200" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="200" \/><\/font>\n<font weight="300" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="300" \/><\/font>\n<font weight="400" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="400" \/><\/font>\n<font weight="500" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="500" \/><\/font>\n<font weight="600" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="600" \/><\/font>\n<font weight="700" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="700" \/><\/font>\n<font weight="800" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="800" \/><\/font>\n<font weight="900" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKkr-ExtraLight">NotoSerifCJK-VF.otf.ttc<axis tag="wght" stylevalue="900" \/><\/font>\n<\/family>\n<family lang="ko">\n<font weight="400" style="normal" index="1" postScriptName="NotoSansCJKjp-Regular">NotoSansCJK-Regular.ttc<\/font>\n<font weight="400" style="normal" index="1" fallbackFor="serif" postScriptName="NotoSerifCJKjp-Regular">NotoSerifCJK-Regular.ttc<\/font>\n<\/family>/};
 ' $SYSXML
 
+# Due to fonts missing, will not use these anymore
+# if [ ! $(cat $SYSXML|grep DroidSansFallback.ttf) ]; then
+# sed -i 's/<\/familyset>/<family>\n<font weight="400" style="normal">DroidSansFallback.ttf<\/font>\n<\/family>\n<\/familyset>/g' $SYSXML
+# fi
 
-if [ ! $(cat $SYSXML|grep DroidSansFallback.ttf) ]; then
-sed -i 's/<\/familyset>/<family>\n<font weight="400" style="normal">DroidSansFallback.ttf<\/font>\n<\/family>\n<\/familyset>/g' $SYSXML
-fi
-
-if [ ! $(cat $SYSXML|grep DroidSansFallbackFull.ttf) ]; then
-sed -i 's/<\/familyset>/<family>\n<font weight="400" style="normal">DroidSansFallbackFull.ttf<\/font>\n<\/family>\n<\/familyset>/g' $SYSXML
-fi
+# if [ ! $(cat $SYSXML|grep DroidSansFallbackFull.ttf) ]; then
+# sed -i 's/<\/familyset>/<family>\n<font weight="400" style="normal">DroidSansFallbackFull.ttf<\/font>\n<\/family>\n<\/familyset>/g' $SYSXML
+# fi
 
 if grep -q "google-sans" $ORIPRDXML ; then
 # Google Pixel's RRO
