@@ -7,7 +7,7 @@ Add variable font for CJK.
 - [Telegram Channel](https://t.me/ohmyfont_channel)
 - [Telegram Discussion](https://t.me/ohmyfont)
 
-### How to istall
+### How to install
 - Once installed the main module should generate a folder called `OhMyFont` at internal storage.
 
 - Download
